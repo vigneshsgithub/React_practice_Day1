@@ -5,7 +5,7 @@ import './Btnforscript.css';
 const Btnforscript = (props) =>{
     return(
         <>
-        <button className="btnstyleforscript">{props.text} </button>
+        <button className="btnstyleforscript" onClick={props.onClick}>{props.text} </button>
         </>
     )
 }
