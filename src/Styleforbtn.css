@@ -1,0 +1,20 @@
+
+.btn-styleone{
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 70px;
+    background-color: #3400E9;
+    color:#FFFBFF;
+    border: none;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-styleone:hover{
+    filter: drop-shadow(0 0 0.5em #646cffaa);
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+}
