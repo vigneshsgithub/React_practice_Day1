@@ -1,7 +1,6 @@
 import React from "react";
 import './Btnforscript.css';
 
-
 const Btnforscript = (props) =>{
     return(
         <>

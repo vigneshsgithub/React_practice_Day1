@@ -58,3 +58,22 @@ font-weight: 200;
   flex-direction: row;
   gap: 30px;
 }
+
+.content-div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.content-div:hover{
+  filter: drop-shadow(0 0 0.5em blanchedalmond);
+  transform: scale(1.1);
+}

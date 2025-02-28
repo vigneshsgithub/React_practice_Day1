@@ -5,9 +5,19 @@ import Btnfortaskone from "./btnfortaskone.jsx";
 import Btnforscript from "./Btnforscript.jsx";
 import content from './btnfortaskone.js';
 
+
+
+
 const Taskone = () => {
 
+
+
     const [isVisible, setVisible] = useState(false);
+
+
+    function handleclick(){
+        alert('I have been called by a function in the onClick prop');
+    }
 
     return (
         <>
@@ -27,13 +37,14 @@ const Taskone = () => {
             <div className="Btnsforscript">
                 <Btnforscript text={"Btn text"} onClick={() => {setVisible(!isVisible)}} />
                 <Btnforscript text={"Btn text"} onClick={() => {alert("Hello World")}}/>
-                <Btnforscript text={"Btn text"} />
-                <Btnforscript text={"Btn text"} />
+                <Btnforscript text={"Btn text"} onClick={()=>{prompt('Enter Your Password :')}} />
+                <Btnforscript text={"Btn text"} onClick={()=>{{handleclick()}}} />
+          
             </div>
 
             {
                 (isVisible) ?
-                    <div className="content-div" style={{color: "white"}}>
+                    <div className="content-div" style={{color: "black"}}>
                         {content.map((contentArray, index) => {
                             return (
                                 <div key={index}>
@@ -50,4 +61,7 @@ const Taskone = () => {
         </>
     )
 }
-export default Taskone; 
+export default Taskone;
+
+
+

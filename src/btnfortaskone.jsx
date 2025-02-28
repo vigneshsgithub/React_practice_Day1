@@ -4,7 +4,7 @@ import './Styleforbtn.css';
 const Btnfortaskone = (props) => {
     return(
         <>
-              <button className="btn-styleone">{props.text}</button>
+              <button className="btn-styleone" on>{props.text}</button>
         </>
     )
 }

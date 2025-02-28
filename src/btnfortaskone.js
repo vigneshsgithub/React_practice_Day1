@@ -1,5 +1,3 @@
-
-
 const content = [[
     "Content for the first button",
     "Content for the second button",
@@ -21,4 +19,6 @@ const content = [[
     "Content for the third button",
     "Content for the fifteenth button"
 ]];
+
 export default content;
+
