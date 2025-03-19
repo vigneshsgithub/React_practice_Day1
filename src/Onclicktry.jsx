@@ -15,5 +15,3 @@ const Onclicktry = (props) => {
 };
 
 export default Onclicktry;
-
-
